@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Playwright Java E2E Tests" parallel="tests" thread-count="3">
+    <test name="EA APP WEB UI TESTS">
+        <packages>
+            <package name="Tests.EAappTests.UITests"/>
+        </packages>
+    </test>
+    <test name="GO REST API TESTS">
+        <packages>
+            <package name="Tests.GoRestTests.APITests"/>
+        </packages>
+    </test>
+    <test name="SAUCE DEMO APP UI LOGIN TESTS">
+        <packages>
+            <package name="Tests.SauceDemo.LoginTests"/>
+        </packages>
+    </test>
+</suite>
+
