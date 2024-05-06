@@ -1,0 +1,7 @@
+./allure-results
+./videos
+.vscode
+.idea
+./bin
+./test-output
+./target
