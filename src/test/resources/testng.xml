@@ -2,17 +2,17 @@
 <suite name="Playwright Java E2E Tests" parallel="tests" thread-count="3">
     <test name="EA APP WEB UI TESTS">
         <packages>
-            <package name="Tests.EAappTests.UITests"/>
+            <package name="tests.EAappTests.UITests"/>
         </packages>
     </test>
     <test name="GO REST API TESTS">
         <packages>
-            <package name="Tests.GoRestTests.APITests"/>
+            <package name="tests.GoRestTests.APITests"/>
         </packages>
     </test>
     <test name="SAUCE DEMO APP UI LOGIN TESTS">
         <packages>
-            <package name="Tests.SauceDemo.LoginTests"/>
+            <package name="tests.SauceDemo.LoginTests"/>
         </packages>
     </test>
 </suite>
