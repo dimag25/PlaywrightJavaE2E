@@ -18,6 +18,8 @@ jobs:
         run: mvn -B install --no-transfer-progress
       - name: Install Playwright
         run: mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args="install --with-deps"
+      - name: Check for tests to run
+        run: mvn test-compile && echo "Compiled tests successfully"
       - name: Run tests
         run: mvn test
       - name: Store Playwright Traces and Videos From Failed Tests
