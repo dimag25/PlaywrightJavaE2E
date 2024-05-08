@@ -1,4 +1,4 @@
-package Tests.SauceDemo;
+package tests.SauceDemo;
 
 import base.BaseTest;
 import base.FrameworkConfig;
@@ -10,7 +10,7 @@ import reporter.AllureReporter;
 
 import static PlaywrightApis.ApiPlaywrightWrapper.closePlaywright;
 import static PlaywrightApis.ApiPlaywrightWrapper.createPlaywright;
-import static Tests.SauceDemo.LoginData.SAUCE_DEMO_APP;
+import static tests.SauceDemo.LoginData.SAUCE_DEMO_APP;
 
 public class LoginTests extends BaseTest {
 

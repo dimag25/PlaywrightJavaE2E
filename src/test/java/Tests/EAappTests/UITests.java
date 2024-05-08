@@ -1,4 +1,4 @@
-package Tests.EAappTests;
+package tests.EAappTests;
 
 import base.BaseTest;
 import base.FrameworkConfig;
@@ -6,10 +6,11 @@ import base.FrameworkInitalize;
 import io.qameta.allure.*;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
-import Tests.EAappTests.pages.CreateUserPage;
-import Tests.EAappTests.pages.HomePage;
-import Tests.EAappTests.pages.LoginPage;
+
 import reporter.AllureReporter;
+import tests.EAappTests.pages.CreateUserPage;
+import tests.EAappTests.pages.HomePage;
+import tests.EAappTests.pages.LoginPage;
 
 import static PlaywrightApis.ApiPlaywrightWrapper.closePlaywright;
 import static PlaywrightApis.ApiPlaywrightWrapper.createPlaywright;

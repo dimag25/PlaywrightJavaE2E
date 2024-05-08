@@ -1,4 +1,4 @@
-package Tests.EAappTests;
+package tests.EAappTests;
 
 public class TestsData {
 

@@ -1,4 +1,4 @@
-package Tests.SauceDemo;
+package tests.SauceDemo;
 
 import base.BasePage;
 import base.FrameworkConfig;

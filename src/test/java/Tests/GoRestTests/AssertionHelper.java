@@ -1,4 +1,4 @@
-package Tests.GoRestTests;
+package tests.GoRestTests;
 
 import io.qameta.allure.Step;
 

@@ -1,4 +1,4 @@
-package Tests.EAappTests.pages;
+package tests.EAappTests.pages;
 
 import base.BasePage;
 import base.FrameworkConfig;

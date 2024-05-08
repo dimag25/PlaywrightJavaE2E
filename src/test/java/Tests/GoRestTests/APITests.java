@@ -1,4 +1,4 @@
-package Tests.GoRestTests;
+package tests.GoRestTests;
 
 import base.BaseTest;
 import com.google.gson.Gson;
@@ -14,8 +14,8 @@ import reporter.AllureReporter;
 import java.util.*;
 
 import static PlaywrightApis.ApiPlaywrightWrapper.*;
-import static Tests.GoRestTests.ApiTestsData.*;
-import static Tests.GoRestTests.AssertionHelper.assertObjectEquals;
+import static tests.GoRestTests.ApiTestsData.*;
+import static tests.GoRestTests.AssertionHelper.assertObjectEquals;
 
 public class APITests extends BaseTest {
 
