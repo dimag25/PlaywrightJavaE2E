@@ -4,8 +4,8 @@
 <artifactId>PlaywrightJavaE2E</artifactId>
 <version>1.0-SNAPSHOT</version>
 <properties>
-<maven.compiler.source>17</maven.compiler.source>
-<maven.compiler.target>17</maven.compiler.target>
+<maven.compiler.source>14</maven.compiler.source>
+<maven.compiler.target>14</maven.compiler.target>
 </properties>
 <dependencies>
     <dependency>
@@ -17,7 +17,7 @@
     <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.3.0</version>
+    <version>7.4.0</version>
     <scope>test</scope>
     </dependency>
     <dependency>
@@ -33,4 +33,27 @@
     </dependency>
 
 </dependencies>
+    <build>
+        <plugins>
+            <!-- Maven Compiler Plugin to ensure Java 14 compatibility -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version> <!-- Ensure compatibility with Java 14 -->
+                <configuration>
+                    <release>14</release>
+                </configuration>
+            </plugin>
+
+            <!-- Maven Surefire Plugin Configuration -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <!-- Configuration specific to your project -->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
