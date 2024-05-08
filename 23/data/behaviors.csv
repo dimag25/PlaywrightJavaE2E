@@ -1,0 +1,7 @@
+"Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
+"","Users InValid Login Test","Users Login","0","0","2","0","0"
+"","Users Valid Login Test","Users Login","0","0","1","0","0"
+"","Users UI TESTS","USERS CREATION","0","0","1","0","0"
+"","Users REST API","USERS UPDATE DATA","0","0","1","0","0"
+"","Users REST API","USERS CREATION","0","0","1","0","0"
+"","Users REST API","GET 10 RANDOM UNIQUE USER NAMES","0","0","1","0","0"
