@@ -17,7 +17,7 @@ public class FrameworkInitalize {
 
         //Set the launch Options
         BrowserType.LaunchOptions launchOptions = new BrowserType.LaunchOptions();
-        launchOptions.headless = Settings.Headless;
+        launchOptions.headless = true;
         launchOptions.devtools = Settings.DevTools;
 
         //Get Browser

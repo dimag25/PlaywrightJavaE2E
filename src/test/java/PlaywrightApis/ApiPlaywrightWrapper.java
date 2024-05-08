@@ -10,11 +10,12 @@ import com.microsoft.playwright.options.RequestOptions;
 import org.json.JSONArray;
 import java.util.HashMap;
 import java.util.Map;
-import static Tests.GoRestTests.ApiTestsData.*;
+
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 import static reporter.AllureReporter.attachGetRequestResponse;
 import static reporter.AllureReporter.attachRequestResponse;
+import static tests.GoRestTests.ApiTestsData.*;
 
 public class ApiPlaywrightWrapper {
     private static Playwright playwright;

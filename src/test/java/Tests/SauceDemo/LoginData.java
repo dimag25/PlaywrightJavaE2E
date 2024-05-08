@@ -1,4 +1,4 @@
-package Tests.SauceDemo;
+package tests.SauceDemo;
 
 public class LoginData {
     public static final String SAUCE_DEMO_APP = "https://www.saucedemo.com";
