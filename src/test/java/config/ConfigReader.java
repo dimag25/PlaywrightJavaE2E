@@ -28,7 +28,8 @@ public class ConfigReader {
         Settings.DevTools =Boolean.getBoolean(p.getProperty("DevTools"));
         Settings.DeviceEmulationType = p.getProperty("DeviceEmulationType");
         Settings.Locale = p.getProperty("Locale");
-
+        Settings.VideosPath = p.getProperty("VideoPath");
+        Settings.VideoSize = p.getProperty("VideoSize");
     }
 
 }

@@ -1,9 +1,6 @@
 package base;
 
-import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserContext;
-import com.microsoft.playwright.BrowserType;
-import com.microsoft.playwright.Page;
+import com.microsoft.playwright.*;
 import config.Settings;
 
 import java.nio.file.Paths;
@@ -26,7 +23,9 @@ public class FrameworkInitalize {
         //Get browserContext
         Browser.NewContextOptions contextOptions = new Browser.NewContextOptions();
         contextOptions.locale = Settings.Locale;
-        contextOptions.setRecordVideoDir(Paths.get("videos/")).setRecordVideoSize(640, 480);
+        int width = Integer.parseInt(Settings.VideoSize.split(",")[0]);
+        int height = Integer.parseInt(Settings.VideoSize.split(",")[1]);
+        contextOptions.setRecordVideoDir(Paths.get(Settings.VideosPath)).setRecordVideoSize(width, height);
         BrowserContext context = browserInitalize.GetBrowserContext(browser, contextOptions);
         //Get Page
         return browserInitalize.GetPage(context);
