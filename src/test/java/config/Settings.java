@@ -7,4 +7,6 @@ public class Settings {
     public static boolean DevTools;
     public static String DeviceEmulationType;
     public static String Locale;
+    public static String VideosPath;
+    public static String VideoSize;
 }
